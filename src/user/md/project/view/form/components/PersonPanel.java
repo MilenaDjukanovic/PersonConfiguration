@@ -102,8 +102,8 @@ public class PersonPanel extends javax.swing.JPanel {
 
             String vegeterian = inputVegeterianRadioButton.getValue().toString();
 
-            JOptionPane.showMessageDialog(this, "Ime: " + firstname + "\nPrezime: "
-                    + lastname + "\nPol: " + gender + "\nDatum rodjenja: " + new SimpleDateFormat("dd.MM.yyyy").format(birthday)
+            JOptionPane.showMessageDialog(this, "Name: " + firstname + "\nLastname: "
+                    + lastname + "\nGender: " + gender + "\nBirthday: " + new SimpleDateFormat("dd.MM.yyyy").format(birthday)
                     + "\nMarried: " + married + "\nVegeterian: " + vegeterian);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Validacija nije uspjesna ");
